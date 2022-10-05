@@ -413,8 +413,6 @@
 
 .lorem {
   color: #ffffff;
-  display: flex;
-  justify-content: center;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -434,10 +432,9 @@
   text-align: justify;
 }
 
-.lorem-box {
+.lorem__lorem-box {
   max-width: 270px;
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
   padding-right: 0px;
   margin: 0px;
   padding: 0;

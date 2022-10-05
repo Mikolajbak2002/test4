@@ -1,9 +1,10 @@
 .lorem {
   color: #ffffff;
-  display: flex;
-  justify-content: center;
+ 
+ 
   padding-top: 94px;
   padding-bottom: 94px;
+ 
 }
 .lorem__description {
   /* margin: 10 15px 15px; */
@@ -21,13 +22,16 @@
   text-align: justify;
 }
 
-.lorem-box {
+.lorem__lorem-box {
   max-width: 270px;
-  display: flex;
-  flex-wrap: wrap;
+display: inline-block;
+
+
   padding-right: 0px;
   margin: 0px;
   padding: 0;
+ 
+
 }
 
 .lorem__icon-box {
