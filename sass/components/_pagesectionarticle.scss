@@ -1,12 +1,15 @@
-.lorem {
+.article {
   color: #ffffff;
- 
- 
+
   padding-top: 94px;
   padding-bottom: 94px;
- 
 }
-.lorem__description {
+.article__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.article__description {
   /* margin: 10 15px 15px; */
   font-family: "Roboto";
   font-style: normal;
@@ -22,19 +25,16 @@
   text-align: justify;
 }
 
-.lorem__lorem-box {
+.article__article-box {
   max-width: 270px;
-display: inline-block;
-
+  display: inline-block;
 
   padding-right: 0px;
   margin: 0px;
   padding: 0;
- 
-
 }
 
-.lorem__icon-box {
+.article__icon-box {
   width: 270px;
   height: 120px;
   display: flex;
@@ -49,7 +49,7 @@ display: inline-block;
   background-color: #f5f4fa;
 }
 
-.lorem-box__paragraf {
+.article-box__paragraf {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
